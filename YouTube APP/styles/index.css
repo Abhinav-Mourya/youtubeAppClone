@@ -1,0 +1,87 @@
+body{
+
+    
+    margin:0px;
+    padding:0px;
+    width:100%;
+    margin:auto;
+    background-color:#181818;
+}
+
+
+#container{
+
+   width:95%;
+   margin:auto;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+   
+}
+
+
+#container>div{
+
+    margin-top:20%;
+    cursor:pointer;
+    
+}
+
+#container>div>img{
+
+    width:100%;
+}
+
+#channel_title{
+
+color:white;
+font-family:Roboto, Arial, sans-serif;
+font-size:14px;
+font-weight: 500;
+line-height: 20px;
+
+}
+
+#channel_name{
+
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgb(170, 170, 170);
+ }
+
+
+
+#navbar+h2{
+
+font-weight:bold;
+font-family: Roboto, Arial, sans-serif;
+font-size:25px;
+font-weight: 500;
+line-height: 20px;
+color:white;
+text-align:center;
+display:none;
+}
+
+
+#sorting_div{
+
+    display:none;
+    text-align:center;
+   
+}
+
+.sorting{
+
+    border:1px solid white;
+    font-family: Roboto, Arial, sans-serif;
+    display:inline-block;
+    font-size:20px;
+    font-weight: 500;
+    line-height: 20px;
+    color:black;
+    cursor:pointer;
+  
+}

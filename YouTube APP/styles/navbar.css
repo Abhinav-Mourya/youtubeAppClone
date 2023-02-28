@@ -1,0 +1,144 @@
+#navbar{
+
+ 
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:#282828;
+    margin-top:-1%;
+    position:sticky;
+    top:-1%;
+    
+}
+
+#navbar_left{
+
+   
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:10%;
+    margin-left:2%;
+}
+
+#bar{
+
+   
+    height:100%;
+    font-size:20px;
+    color:white;
+    
+}
+
+#youtube_image_div{
+
+
+    width:100%;
+    
+   
+}
+
+#youtube_image{
+
+    background-color:white;
+    width:100%;
+    
+
+}
+
+
+
+#navbar_mid{
+
+  
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:70%;
+ 
+}
+
+#search_div{
+
+    border:1px solid;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:65%;
+    
+}
+
+#voice_div{
+
+    border:1px solid #202020;
+     margin-left:1%;
+     font-size:16px;
+     padding: 1%;
+     border-radius:30px;
+     color:white;
+     background-color:black;
+}
+
+input{
+
+display:block;
+width:100%;
+height:30px;
+background-color:black;
+color:white;
+}
+
+input::placeholder{
+
+    font-size:16px;
+    font-weight:bold;
+}
+
+input+div{
+
+   border:1px solid #313131;
+  font-size:18px;
+  padding:1% 3%;
+  background-color:#313131;
+  color:white;
+  cursor:pointer;
+ 
+}
+
+#navbar_right{
+
+   
+    width:10%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    margin-right:2%;
+   
+}
+
+#three_dots{
+
+   
+    font-size:14px;
+    margin-right:20%;
+    color:rgb(218, 212, 212);
+    
+}
+
+#signin_btn{
+
+    border:1px solid #3EA6FF;
+    font-family: Roboto, Arial, sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    line-height: normal;
+    color: rgb(62, 166, 255);
+   padding:5% 10%;
+    margin-left:1%;
+    margin-right:2%;
+    cursor:pointer;
+}
+
+
+

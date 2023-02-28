@@ -1,0 +1,36 @@
+body{
+
+margin:0px;
+padding:0px;
+background-color:#1C1818;
+
+}
+
+
+#container{
+
+    border:1px solid;
+    width:90%;
+    margin:auto;
+    margin-top:2%;
+}
+
+
+#channel_title{
+
+    color:white;
+    font-family:Roboto, Arial, sans-serif;
+    font-size:14px;
+    font-weight: 500;
+    line-height: 20px;
+    
+    }
+    
+    #channel_name{
+    
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        color: rgb(170, 170, 170);
+     }
